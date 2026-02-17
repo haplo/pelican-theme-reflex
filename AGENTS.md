@@ -107,7 +107,8 @@ make publish
 │   ├── stylesheet/            # LESS/CSS files
 │   ├── dark-theme/            # Dark theme JS
 │   ├── pygments/              # Code highlighting styles
-│   └── font-awesome/          # Font Awesome assets
+│   ├── font-awesome/          # Font Awesome assets
+│   └── stork/                 # Stork search JS/WASM/CSS
 ├── templates/                 # Jinja2 templates
 │   ├── partial/               # Reusable template partials
 │   ├── base.html              # Base template
@@ -158,7 +159,12 @@ Hooks configured:
 ### Python (for testing)
 
 - pelican
+- pelican-search (for search functionality)
 - Dependencies in example/requirements.txt
+
+### System Dependencies
+
+- **Stork** (v1.6.0): Required by pelican-search plugin for generating search indexes. Install from [stork-search.net](https://stork-search.net/docs/install). The theme bundles Stork JS/WASM/CSS assets in `static/stork/`.
 
 ## Common Tasks
 
@@ -181,6 +187,28 @@ Hooks configured:
 1. Edit source file in `static/dark-theme/`
 2. Run `gulp uglify` to minify
 3. Ensure minified version is referenced in templates
+
+### Enabling Search
+
+The theme supports search via pelican-search plugin with Stork:
+
+1. Install stork binary system-wide
+2. Add `'pelican.plugins.search'` to `PLUGINS` in pelicanconf.py
+3. Set `STORK_VERSION` to use CDN, or omit to use bundled assets
+4. The search input is in `templates/partial/sidebar.html`
+5. Stork assets are in `static/stork/` (bundled: v1.6.0)
+
+Settings for pelicanconf.py:
+```python
+PLUGINS = ['pelican.plugins.search']
+STORK_VERSION = "1.6.0"  # Use CDN (recommended)
+# OR omit STORK_VERSION to use bundled assets
+
+# Optional: configure stork indexing
+STORK_INPUT_OPTIONS = {
+    "url_prefix": SITEURL,
+}
+```
 
 ## Releasing
 
