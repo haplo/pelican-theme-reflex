@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-18 14:37+0000\n"
+"POT-Creation-Date: 2026-04-12 18:29+0100\n"
 "PO-Revision-Date: 2026-02-18 15:03+0000\n"
 "Last-Translator: Alexandre Vicenzi <transifex@alxd.me>, 2020\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: templates/archives.html:3 templates/archives.html:8
 #: templates/period_archives.html:3 templates/period_archives.html:8
@@ -70,14 +70,6 @@ msgstr "Etiquetado con"
 #: templates/index.html:40
 msgid "Continue reading"
 msgstr "Seguir leyendo"
-
-#: templates/search.html:4
-msgid "Search"
-msgstr "Búsqueda"
-
-#: templates/search.html:9
-msgid "Search Results"
-msgstr "Resultados de la búsqueda"
 
 #: templates/tag.html:3
 #, python-format
@@ -135,7 +127,9 @@ msgstr "Construido con %(pelican_url)s y el tema %(theme_url)s"
 msgid "Switch to the %(dark_url)s | %(light_url)s | %(browser_url)s theme"
 msgstr "Cambiar el tema a %(dark_url)s | %(light_url)s | %(browser_url)s "
 
-#: templates/partial/sidebar.html:24 templates/partial/sidebar.html:33
+#: templates/partial/sidebar.html:23
 msgid "Search..."
 msgstr "Buscar..."
+
+
 
