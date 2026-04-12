@@ -30,9 +30,9 @@ jobs:
         run: pip install dist/*.whl
       - name: Install Stork binary
         run: |
-          wget -q https://files.stork-search.net/releases/v1.6.0/stork-ubuntu-20-04
-          chmod +x stork-ubuntu-20-04
-          sudo mv stork-ubuntu-20-04 /usr/local/bin/stork
+          wget -q https://files.stork-search.net/releases/v1.6.0/stork-ubuntu-22-04
+          chmod +x stork-ubuntu-22-04
+          sudo mv stork-ubuntu-22-04 /usr/local/bin/stork
       - name: Install Pelican dependencies
         run: pip install -r example/requirements.txt
       - name: Build site
