@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 15:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ro_RO\n"
@@ -34,11 +34,7 @@ msgstr ""
 msgid "%(minutes)s min read"
 msgstr ""
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr ""
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr ""
 
@@ -128,5 +124,6 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr ""
 

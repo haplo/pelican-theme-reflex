@@ -50,14 +50,6 @@
         {% endif %}
       </p>
     </div>
-    {% if ADD_THIS_ID %}
-      <div class="center social-share">
-        <p>{{ _("Like this article? Share it with your friends!") }}</p>
-        <div class="addthis_native_toolbox"></div>
-        <div class="addthis_sharing_toolbox"></div>
-        <div class="addthis_inline_share_toolbox"></div>
-      </div>
-    {% endif %}
     {% include "partial/neighbors.html" %}
     {% if article.related_posts %}
       <div class="related-posts">
@@ -70,8 +62,6 @@
           {% endfor %}
         </ul>
       </div>
-    {% elif ADD_THIS_ID %}
-      <div class="addthis_relatedposts_inline"></div>
     {% endif %}
     {% if article.series %}
       <div class="related-posts">

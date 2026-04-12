@@ -38,7 +38,6 @@ Most settings were inherited from [Flex theme](https://github.com/alexandrevicen
 
 | Name | What does it do? |
 |:----:|------------------|
-| ADD_THIS_ID                      | AddThis public id.                                                     |
 | DISQUS_SITENAME                  | Disqus website's shortname to activate Disqus.                         |
 | DUOSHUO_SITENAME                 | [duoshuo](http://duoshuo.com/) website's shortname to activate.        |
 | GOOGLE_ANALYTICS                 | Activate Google Analytics.                                             |

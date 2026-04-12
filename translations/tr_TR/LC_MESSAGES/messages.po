@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 14:59+0000\n"
 "Last-Translator: İlker Yürüyen <i.ilker.yuruyen@gmail.com>, 2019\n"
 "Language: tr_TR\n"
@@ -36,11 +36,7 @@ msgstr "%(when)s tarihinde %(category)s kategorisinde paylaşıldı"
 msgid "%(minutes)s min read"
 msgstr ""
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "Bu makaleyi sevdiniz mi? Arkadaşlarınızla paylaşın!"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "Sevebilirsiniz"
 
@@ -130,5 +126,6 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "Bu makaleyi sevdiniz mi? Arkadaşlarınızla paylaşın!"
 
