@@ -88,7 +88,7 @@ aside {
     color: @sidebar-link-hover-color;
   }
 
-  div {
+  > div {
     padding: 20px;
     margin: 0;
 
@@ -98,7 +98,7 @@ aside {
     }
 
     h1 {
-      margin: 15px 0 5px 0;
+      margin: 5px 0 15px 0;
     }
 
     p {
@@ -116,6 +116,66 @@ aside {
         text-transform: lowercase;
       }
     }
+  }
+
+  .stork-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0;
+
+    --stork-border-color: transparent;
+    --stork-background-color: @grey;
+    --stork-accent-color: @orange;
+    --stork-input-width: 100%;
+    --stork-input-border-radius: 0;
+    --stork-input-text-color: @light-grey;
+    --stork-input-shadow: 0;
+    --stork-results-width: 100%;
+    --stork-results-shadow: 0;
+    --stork-results-hover-color: darken(@orange, 10%);
+    --stork-results-title-color: @light-grey;
+    --stork-results-excerpt-color: @med-grey;
+    --stork-results-highlight-color: @light-orange;
+    --stork-results-border-color: @med-grey;
+  }
+
+  .stork-wrapper *,
+  .stork-wrapper *:before,
+  .stork-wrapper *:after {
+    box-sizing: border-box;
+  }
+
+  .stork-input {
+    height: auto;
+    border: none;
+    box-shadow: none;
+    background-color: @very-dark-grey;
+    font-family: inherit;
+  }
+
+  .stork-close-button {
+    border: none;
+    background: none;
+    color: @med-grey;
+    height: 1.2em;
+    width: 1.2em;
+  }
+
+  .stork-close-button:hover {
+    background: hsla(0, 0%, 78%);
+  }
+
+  .stork-results {
+    border: solid @white;
+    border-width: 1px 0;
+    padding: 0;
+  }
+
+  .stork-output-visible {
+    border: 1px solid @white;
+    width: auto;
   }
 }
 
@@ -592,20 +652,26 @@ ul.social {
     top: 0;
     left: 0;
 
-    div {
+    > div {
       padding: 36px 18px;
+    }
 
-      nav {
-        ul {
-          li {
-            padding: 0 !important;
-            display: block;
-          }
+    nav {
+      ul {
+        li {
+          padding: 0 !important;
+          display: block;
         }
       }
+    }
 
-      ul.social {
-        padding-top: 32px;
+    ul.social {
+      padding-top: 32px;
+    }
+
+    .stork-wrapper {
+      .stork-output-visible {
+        min-width: 50vh;
       }
     }
   }
