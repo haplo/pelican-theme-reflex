@@ -4,6 +4,19 @@
 
 Reflex is a minimalist Pelican theme using Jinja2 templates, LESS stylesheets, and JavaScript. It uses Gulp for asset compilation.
 
+## Directories to Ignore
+
+When exploring or searching the codebase, skip these directories — they contain generated, cached, or third-party content with no project source code:
+
+- `.git/` — VCS internals
+- `dist/` — Build output (wheel/sdist)
+- `node_modules/` — Third-party JS dependencies
+- `.venv/` — Python virtual environment
+- `__pycache__/` — Python bytecode cache
+- `.mypy_cache/` — Type checker cache
+- `.pdm-build/` — PDM build temp directory
+- `example/output/` — Generated example site
+
 ## Build Commands
 
 ### Node.js/Gulp (Asset Compilation)
