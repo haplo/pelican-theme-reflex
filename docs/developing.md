@@ -10,6 +10,10 @@ pip install pre-commit  # or install system-wide
 pre-commit install
 ```
 
+### System Dependencies
+
+- **Stork** (optional, for search): Install from [stork-search.net](https://stork-search.net/docs/install) if you want to test the search functionality locally.
+
 ## Compilation
 
 `npm run watch`

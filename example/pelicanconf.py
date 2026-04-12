@@ -23,7 +23,12 @@ DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
 
-# PLUGINS = ['i18n_subsites']
+# Search is enabled in publishconf.py for the live site
+# To test locally, install stork binary and uncomment:
+# PLUGINS = ['pelican.plugins.search']
+# STORK_INPUT_OPTIONS = {
+#     "html_selector" : ".entry-content"
+# }
 
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 

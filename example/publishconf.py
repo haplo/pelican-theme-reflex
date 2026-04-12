@@ -14,6 +14,8 @@ RELATIVE_URLS = False
 
 USE_LESS = False
 
+PLUGINS = ['pelican.plugins.search']
+
 SHYNET_URL = (
     "https://shynet.fidelramos.net/ingress/9574b461-0b4e-4e54-adfc-1d49735686f1"
 )

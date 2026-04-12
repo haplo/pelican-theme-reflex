@@ -1,2 +1,5 @@
 pelican[markdown]
 markdown-captions==2.1.2
+
+# For search functionality
+pelican-search==1.1.1

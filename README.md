@@ -51,7 +51,7 @@ Its source code is [in the example directory](https://github.com/haplo/pelican-t
 - [Series](https://github.com/pelican-plugins/series)
 - [Representative image](https://github.com/getpelican/pelican-plugins/tree/master/representative_image)
 - [Neighbors](https://github.com/getpelican/pelican-plugins/tree/master/neighbors)
-- [Pelican Search](https://github.com/pelican-plugins/search)
+- [Pelican Search](https://github.com/pelican-plugins/search) (requires [Stork](https://stork-search.net/))
 - [Tipue Search](https://github.com/getpelican/pelican-plugins/blob/master/tipue_search/) (deprecated)
 - [SEO](https://github.com/pelican-plugins/seo)
 
