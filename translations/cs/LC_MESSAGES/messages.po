@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 15:04+0000\n"
 "Last-Translator: Ivana Holm <akarienta@gmail.com>, 2018\n"
 "Language: cs\n"
@@ -37,11 +37,7 @@ msgstr "Publikováno %(when)s v kategorii %(category)s"
 msgid "%(minutes)s min read"
 msgstr ""
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "Líbí se Vám článek? Sdílejte jej s přáteli!"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "Mohlo by se Vám líbit"
 
@@ -131,5 +127,6 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "Líbí se Vám článek? Sdílejte jej s přáteli!"
 

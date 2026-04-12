@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 15:04+0000\n"
 "Last-Translator: Charles Brunet <charles@cbrunet.net>, 2021\n"
 "Language: fr\n"
@@ -39,11 +39,7 @@ msgstr "Posté le %(when)s dans %(category)s"
 msgid "%(minutes)s min read"
 msgstr "lecture de %(minutes)s min"
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "Vous aimez cet article ? Partagez le avec vos amis !"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "Vous pourriez aimer"
 
@@ -133,5 +129,6 @@ msgstr "Changer pour le thème %(dark_url)s | %(light_url)s | %(browser_url)s"
 msgid "Search..."
 msgstr "Rechercher…"
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "Vous aimez cet article ? Partagez le avec vos amis !"
 

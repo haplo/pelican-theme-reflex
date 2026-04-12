@@ -21,7 +21,7 @@ Its source code is [in the example directory](https://github.com/haplo/pelican-t
 - SEO best practices
 - Open Graph
 - Rich Snippets (JSON-LD)
-- Related Posts (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/related_posts) or [AddThis](https://en.wikipedia.org/wiki/AddThis) (*defunct*))
+- Related Posts (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/related_posts))
 - Series (via [plugin](https://github.com/pelican-plugins/series))
 - Minute read (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/post_stats))
 - [Multiple code highlight styles](https://github.com/haplo/pelican-theme-reflex/blob/main/docs/code_highlight.md)
@@ -30,7 +30,6 @@ Its source code is [in the example directory](https://github.com/haplo/pelican-t
 
 ## Integrations
 
-- [AddThis](http://www.addthis.com/)
 - [Disqus](https://disqus.com/)
 - [Gauges Analytics](http://get.gaug.es/)
 - [Google AdSense](https://www.google.com.br/adsense/start/)

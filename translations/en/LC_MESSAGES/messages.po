@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -34,11 +34,7 @@ msgstr "Posted on %(when)s in %(category)s"
 msgid "%(minutes)s min read"
 msgstr ""
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "Like this article? Share it with your friends!"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "You might enjoy"
 
@@ -131,5 +127,6 @@ msgstr ""
 #~ msgid "Powered by %(pelican_url)s - %(theme_url)s theme by %(alexandrevicenzi_url)s"
 #~ msgstr "Powered by %(pelican_url)s - %(theme_url)s theme by %(alexandrevicenzi_url)s"
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "Like this article? Share it with your friends!"
 

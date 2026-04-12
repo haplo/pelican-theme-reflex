@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 14:59+0000\n"
 "Last-Translator: Qian Gu <guqian110@163.com>, 2020\n"
 "Language: zh_CN\n"
@@ -38,11 +38,7 @@ msgstr "在 %(when)s 发布于 %(category)s 分类"
 msgid "%(minutes)s min read"
 msgstr "阅读时长 %(minutes)s 分钟"
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "喜欢这篇文章吗？将它与您的朋友分享吧！"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "您可能还喜欢"
 
@@ -132,5 +128,6 @@ msgstr "切换到 %(dark_url)s | %(light_url)s | %(browser_url)s 主题"
 msgid "Search..."
 msgstr "搜索..."
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "喜欢这篇文章吗？将它与您的朋友分享吧！"
 

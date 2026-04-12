@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:29+0100\n"
+"POT-Creation-Date: 2026-04-12 18:40+0100\n"
 "PO-Revision-Date: 2026-02-18 15:00+0000\n"
 "Last-Translator: i r, 2021\n"
 "Language: fi_FI\n"
@@ -36,11 +36,7 @@ msgstr "Julkaistu %(when)s kategoriassa %(category)s"
 msgid "%(minutes)s min read"
 msgstr "%(minutes)s min"
 
-#: templates/article.html:55
-msgid "Like this article? Share it with your friends!"
-msgstr "Piditkö tästä postauksesta? Jaa se kavereillesi!"
-
-#: templates/article.html:64
+#: templates/article.html:56
 msgid "You might enjoy"
 msgstr "Voisit pitää myös näistä"
 
@@ -130,5 +126,6 @@ msgstr "Vaihda teemaa: %(dark_url)s | %(light_url)s | %(browser_url)s"
 msgid "Search..."
 msgstr "Hae..."
 
-
+#~ msgid "Like this article? Share it with your friends!"
+#~ msgstr "Piditkö tästä postauksesta? Jaa se kavereillesi!"
 
