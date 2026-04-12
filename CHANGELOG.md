@@ -1,3 +1,12 @@
+## 3.2.0
+
+This release updates the built-in search support via Stork.
+
+- Upgrade bundled [Stork](https://stork-search.net/) to latest stable version v1.6.0. CSS styles have been improved to optimize looks in both mobile and desktop.
+- Enable search in example site.
+- Update and recompile translations.
+- Serve LESS 4.5.1 via CDN when `USE_LESS` is enabled.
+
 ## 3.1.0
 
 This release includes accessibility improvements, pre-commit hooks, and various enhancements.
