@@ -18,7 +18,7 @@ PLUGINS = ['pelican.plugins.search']
 
 STORK_INPUT_OPTIONS = {
     "break_on_file_error": True,
-    "stemming": "english",
+    "stemming": "English",
     "url_prefix": SITEURL,
 }
 
