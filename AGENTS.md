@@ -239,6 +239,47 @@ Quick summary:
 
 PyPI publishing is automated via the `pypi-publish.yml` workflow when a `v*` tag is pushed. The workflow calls `check-npm-build.yml` to verify assets are up to date before publishing.
 
+## Translations
+
+The theme uses Babel for i18n. Translations are in `translations/` as `.po` (catalog) and `.mo` (compiled) files. The `.pot` file is the template extracted from Jinja2 templates.
+
+### Translation workflow when templates change
+
+**Any time templates are added, removed, or their translatable strings change**, you must update translations:
+
+1. **Extract** — Regenerate the `.pot` file from current templates:
+   ```bash
+   ./translate.sh extract
+   ```
+
+2. **Update** — Propagate changes to all `.po` catalogs (new strings added, removed strings marked `#~` obsolete):
+   ```bash
+   ./translate.sh update
+   ```
+
+3. **Edit** — If needed, fix obsolete entries in `.po` files (remove `#~` blocks for deleted strings, translate new `msgstr ""` entries).
+
+4. **Compile** — Build `.mo` binary files from `.po` catalogs:
+   ```bash
+   ./translate.sh compile
+   ```
+
+All four steps must be run in order. Do not skip compile — `.mo` files must be committed alongside `.po` changes.
+
+### Adding a new language
+
+```bash
+./translate.sh new <lang_code>
+```
+
+Then edit the generated `.po` file and run `./translate.sh compile`.
+
+### Key details
+
+- Translatable strings in templates use `{{ _("string") }}` or `{% trans %}string{% endtrans %}`
+- The `babel.cfg` in `translations/` maps template extraction rules
+- `.pot` = message template, `.po` = per-language catalog, `.mo` = compiled binary used at runtime
+
 ## Notes
 
 - Pre-commit hooks enforce code style and verify compiled assets

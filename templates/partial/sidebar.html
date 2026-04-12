@@ -13,27 +13,16 @@
       <a href="{{ SITEURL }}/">{{ SITETITLE }}</a>
     </h1>
     {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
-    {% if PLUGINS %}
-      {% if ('tipue_search' in PLUGINS or 'pelican.plugins.tipue_search' in PLUGINS) %}
-        <form class="navbar-search"
-              action="{{ SITEURL }}/search.html"
-              role="search">
-          <input type="text"
-                 name="q"
-                 id="tipue_search_input"
-                 placeholder="{{ _('Search...') }}">
-        </form>
-      {% elif 'pelican.plugins.search' in PLUGINS %}
-        <div class="stork-wrapper">
-          <input class="stork-input"
-                 type="text"
-                 autocomplete="off"
-                 name="q"
-                 data-stork="sitesearch"
-                 placeholder="{{ _('Search...') }}" />
-          <div class="stork-output" data-stork="sitesearch-output"></div>
-        </div>
-      {% endif %}
+    {% if PLUGINS and 'pelican.plugins.search' in PLUGINS %}
+      <div class="stork-wrapper">
+        <input class="stork-input"
+               type="text"
+               autocomplete="off"
+               name="q"
+               data-stork="sitesearch"
+               placeholder="{{ _('Search...') }}" />
+        <div class="stork-output" data-stork="sitesearch-output"></div>
+      </div>
     {% endif %}
     {% if (pages and DISPLAY_PAGES_ON_MENU) or LINKS %}
       <nav>
