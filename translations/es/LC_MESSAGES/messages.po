@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reflex 3.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 18:40+0100\n"
-"PO-Revision-Date: 2026-02-18 15:03+0000\n"
+"POT-Creation-Date: 2026-05-23 11:53+0100\n"
+"PO-Revision-Date: 2026-05-23 12:19+0100\n"
 "Last-Translator: Alexandre Vicenzi <transifex@alxd.me>, 2020\n"
 "Language: es\n"
 "Language-Team: Spanish (https://www.transifex.com/alexandrevicenzi/teams/66327/es/)\n"
@@ -40,6 +40,19 @@ msgstr "%(minutes)s min. de lectura"
 #: templates/article.html:56
 msgid "You might enjoy"
 msgstr "Te puede gustar"
+
+#: templates/article.html:68
+#, python-format
+msgid "Part %(index)s of the %(name)s series"
+msgstr "Parte %(index)s de la serie %(name)s"
+
+#: templates/article.html:71
+msgid "Previous articles"
+msgstr "Artículos anteriores"
+
+#: templates/article.html:81
+msgid "Next articles"
+msgstr "Artículos siguientes"
 
 #: templates/author.html:3
 #, python-format
