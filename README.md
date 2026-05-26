@@ -12,6 +12,8 @@ Its source code is [in the example directory](https://github.com/haplo/pelican-t
 - [Table of contents](https://github.com/haplo/pelican-theme-reflex/blob/main/docs/toc.md) styling.
 - [Figures and captions](https://github.com/haplo/pelican-theme-reflex/blob/main/docs/figures.md) support.
 - X social icon.
+- Dropped AddThis integration.
+- Dropped Tipue Search integration.
 
 ## Features
 
