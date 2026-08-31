@@ -95,6 +95,7 @@ See the [development documentation](https://github.com/haplo/pelican-theme-refle
 Thank you to all contributors!
 
 - [Loïc Penaud](https://github.com/lpenaud)
+- [dchemishanov](https://github.com/dchemishanov)
 
 ## License
 
