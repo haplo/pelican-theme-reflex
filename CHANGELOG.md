@@ -1,3 +1,9 @@
+## 4.0.1
+
+This is a bugfix release.
+
+- Remove pkgutil shims from `pelican` namespace packages. Shipping `pelican/__init__.py` in the wheel overwrote Pelican's real top-level `__init__.py` when the theme was installed after Pelican, breaking Pelican entirely. Thanks to new contributor [dchemishanov](https://github.com/dchemishanov) for the fix.
+
 ## 4.0.0
 
 This is a major release with breaking changes.
